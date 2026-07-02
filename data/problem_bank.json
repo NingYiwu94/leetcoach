@@ -1,0 +1,299 @@
+{
+  "704": {
+    "title": "二分查找",
+    "slug": "binary-search",
+    "difficulty": "Easy",
+    "topics": ["数组", "二分查找"],
+    "skill": "有序区间与二分边界",
+    "template": "left <= right 的闭区间二分模板",
+    "key_points": ["有序数组", "left <= right", "mid 计算", "边界更新"]
+  },
+  "27": {
+    "title": "移除元素",
+    "slug": "remove-element",
+    "difficulty": "Easy",
+    "topics": ["数组", "双指针"],
+    "skill": "快慢指针与原地覆盖",
+    "template": "fast 扫描、slow 维护有效区间",
+    "key_points": ["快慢指针", "原地修改", "数组覆盖"]
+  },
+  "977": {
+    "title": "有序数组的平方",
+    "slug": "squares-of-a-sorted-array",
+    "difficulty": "Easy",
+    "topics": ["数组", "双指针"],
+    "skill": "左右指针夹逼",
+    "template": "比较两端并从结果末尾填充",
+    "key_points": ["平方后顺序变化", "左右指针", "从结果数组末尾填充"]
+  },
+  "209": {
+    "title": "长度最小的子数组",
+    "slug": "minimum-size-subarray-sum",
+    "difficulty": "Medium",
+    "topics": ["数组", "滑动窗口"],
+    "skill": "滑动窗口扩张与收缩",
+    "template": "右指针扩张、满足条件时收缩左边界",
+    "key_points": ["窗口扩张", "窗口收缩", "sum >= target"]
+  },
+  "59": {
+    "title": "螺旋矩阵 II",
+    "slug": "spiral-matrix-ii",
+    "difficulty": "Medium",
+    "topics": ["数组", "模拟"],
+    "skill": "多边界循环控制",
+    "template": "统一左闭右开边界并逐层收缩",
+    "key_points": ["边界控制", "循环不变量", "方向切换"]
+  },
+  "203": {
+    "title": "移除链表元素",
+    "slug": "remove-linked-list-elements",
+    "difficulty": "Easy",
+    "topics": ["链表"],
+    "skill": "dummy 节点与链表删除",
+    "template": "虚拟头节点统一删除头结点和普通节点",
+    "key_points": ["虚拟头节点", "pre.next", "删除当前节点"]
+  },
+  "206": {
+    "title": "反转链表",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "topics": ["链表"],
+    "skill": "链表三指针反转",
+    "template": "保存 next、反转 cur.next、整体前移",
+    "key_points": ["prev", "cur", "next", "断链与重连"]
+  },
+  "24": {
+    "title": "两两交换链表中的节点",
+    "slug": "swap-nodes-in-pairs",
+    "difficulty": "Medium",
+    "topics": ["链表"],
+    "skill": "局部节点重连",
+    "template": "dummy + 临时保存 + 三次指针重连",
+    "key_points": ["虚拟头节点", "节点交换顺序", "下一组起点"]
+  },
+  "19": {
+    "title": "删除链表的倒数第 N 个结点",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "topics": ["链表", "双指针"],
+    "skill": "链表快慢指针间距",
+    "template": "fast 先走 N+1 步，再与 slow 同步移动",
+    "key_points": ["dummy", "固定间距", "删除 slow.next"]
+  },
+  "160": {
+    "title": "相交链表",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy",
+    "topics": ["链表", "双指针"],
+    "skill": "双指针路程对齐",
+    "template": "两个指针分别走 A+B 与 B+A",
+    "key_points": ["指针换头", "总路程相等", "比较节点身份"]
+  },
+  "142": {
+    "title": "环形链表 II",
+    "slug": "linked-list-cycle-ii",
+    "difficulty": "Medium",
+    "topics": ["链表", "双指针"],
+    "skill": "快慢指针判环与入口推导",
+    "template": "Floyd 判环后从头节点与相遇点同步前进",
+    "key_points": ["快慢指针", "相遇条件", "环入口推导"]
+  },
+  "242": {
+    "title": "有效的字母异位词",
+    "slug": "valid-anagram",
+    "difficulty": "Easy",
+    "topics": ["哈希表"],
+    "skill": "定长数组计数",
+    "template": "字符映射到计数数组并做增减抵消",
+    "key_points": ["字符计数", "数组哈希", "频次比较"]
+  },
+  "349": {
+    "title": "两个数组的交集",
+    "slug": "intersection-of-two-arrays",
+    "difficulty": "Easy",
+    "topics": ["哈希表"],
+    "skill": "集合查重与成员判断",
+    "template": "一个集合存储，一个集合收集交集",
+    "key_points": ["set", "去重", "成员查询"]
+  },
+  "202": {
+    "title": "快乐数",
+    "slug": "happy-number",
+    "difficulty": "Easy",
+    "topics": ["哈希表"],
+    "skill": "用集合检测循环",
+    "template": "不断生成下一状态，集合记录已出现状态",
+    "key_points": ["状态转换", "循环检测", "终止条件"]
+  },
+  "1": {
+    "title": "两数之和",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "topics": ["哈希表"],
+    "skill": "补数映射",
+    "template": "查询 target - value，再记录当前位置",
+    "key_points": ["键值映射", "补数", "先查后存"]
+  },
+  "454": {
+    "title": "四数相加 II",
+    "slug": "4sum-ii",
+    "difficulty": "Medium",
+    "topics": ["哈希表"],
+    "skill": "分组统计降低枚举维度",
+    "template": "统计前两数组和，再查询后两数组的相反数",
+    "key_points": ["分组", "频次映射", "空间换时间"]
+  },
+  "383": {
+    "title": "赎金信",
+    "slug": "ransom-note",
+    "difficulty": "Easy",
+    "topics": ["哈希表"],
+    "skill": "字符资源消耗计数",
+    "template": "先统计资源，再逐项扣减并检查负数",
+    "key_points": ["字符计数", "资源消耗", "提前失败"]
+  },
+  "344": {
+    "title": "反转字符串",
+    "slug": "reverse-string",
+    "difficulty": "Easy",
+    "topics": ["字符串", "双指针"],
+    "skill": "字符串首尾交换",
+    "template": "left/right 向中间移动并原地交换",
+    "key_points": ["原地修改", "左右指针", "终止条件"]
+  },
+  "541": {
+    "title": "反转字符串 II",
+    "slug": "reverse-string-ii",
+    "difficulty": "Easy",
+    "topics": ["字符串"],
+    "skill": "分段处理与区间截断",
+    "template": "每 2k 个字符处理前 k 个，尾段统一截断",
+    "key_points": ["步长", "区间边界", "尾段处理"]
+  },
+  "151": {
+    "title": "反转字符串中的单词",
+    "slug": "reverse-words-in-a-string",
+    "difficulty": "Medium",
+    "topics": ["字符串", "双指针"],
+    "skill": "整体反转与局部反转",
+    "template": "清理空格、整体反转、逐词反转",
+    "key_points": ["去除多余空格", "整体反转", "单词反转"]
+  },
+  "28": {
+    "title": "找出字符串中第一个匹配项的下标",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "topics": ["字符串", "KMP"],
+    "skill": "前缀表与字符串匹配",
+    "template": "构建 next 数组并在失配时回退",
+    "key_points": ["最长相等前后缀", "next 数组", "失配回退"]
+  },
+  "232": {
+    "title": "用栈实现队列",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy",
+    "topics": ["栈", "队列"],
+    "skill": "双栈模拟队列",
+    "template": "输入栈负责入队，输出栈为空时统一搬运",
+    "key_points": ["输入栈", "输出栈", "延迟搬运"]
+  },
+  "225": {
+    "title": "用队列实现栈",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy",
+    "topics": ["栈", "队列"],
+    "skill": "队列旋转模拟栈",
+    "template": "入队后旋转旧元素，使新元素位于队首",
+    "key_points": ["队列旋转", "后进先出", "操作顺序"]
+  },
+  "20": {
+    "title": "有效的括号",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "topics": ["栈"],
+    "skill": "栈匹配成对结构",
+    "template": "遇左括号压入期待的右括号，遇右括号检查栈顶",
+    "key_points": ["匹配关系", "空栈判断", "最终栈为空"]
+  },
+  "1047": {
+    "title": "删除字符串中的所有相邻重复项",
+    "slug": "remove-all-adjacent-duplicates-in-string",
+    "difficulty": "Easy",
+    "topics": ["栈", "字符串"],
+    "skill": "栈消除相邻冲突",
+    "template": "当前字符与栈顶相同则弹出，否则压入",
+    "key_points": ["栈顶比较", "相邻消除", "结果拼接"]
+  },
+  "150": {
+    "title": "逆波兰表达式求值",
+    "slug": "evaluate-reverse-polish-notation",
+    "difficulty": "Medium",
+    "topics": ["栈"],
+    "skill": "操作数栈与表达式求值",
+    "template": "数字入栈，运算符弹出两个操作数计算后压回",
+    "key_points": ["操作数顺序", "整数除法", "运算符判断"]
+  },
+  "239": {
+    "title": "滑动窗口最大值",
+    "slug": "sliding-window-maximum",
+    "difficulty": "Hard",
+    "topics": ["队列", "单调队列"],
+    "skill": "单调队列维护窗口最值",
+    "template": "队尾维持单调性，队首淘汰过期下标",
+    "key_points": ["单调队列", "过期下标", "窗口最大值"]
+  },
+  "144": {
+    "title": "二叉树的前序遍历",
+    "slug": "binary-tree-preorder-traversal",
+    "difficulty": "Easy",
+    "topics": ["二叉树"],
+    "skill": "前序递归与迭代遍历",
+    "template": "根左右；栈中先压右再压左",
+    "key_points": ["递归终止", "遍历顺序", "显式栈"]
+  },
+  "145": {
+    "title": "二叉树的后序遍历",
+    "slug": "binary-tree-postorder-traversal",
+    "difficulty": "Easy",
+    "topics": ["二叉树"],
+    "skill": "后序遍历顺序控制",
+    "template": "左右根；可由根右左结果反转得到",
+    "key_points": ["遍历顺序", "结果反转", "递归"]
+  },
+  "94": {
+    "title": "二叉树的中序遍历",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "topics": ["二叉树"],
+    "skill": "中序遍历与栈模拟",
+    "template": "持续向左入栈，弹出访问后转向右子树",
+    "key_points": ["左根右", "栈", "当前节点"]
+  },
+  "102": {
+    "title": "二叉树的层序遍历",
+    "slug": "binary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "topics": ["二叉树", "队列"],
+    "skill": "队列分层遍历",
+    "template": "每轮固定读取当前队列长度",
+    "key_points": ["队列", "层大小", "左右子节点"]
+  },
+  "226": {
+    "title": "翻转二叉树",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy",
+    "topics": ["二叉树"],
+    "skill": "递归交换子树",
+    "template": "处理当前节点并递归左右子树",
+    "key_points": ["递归", "交换左右", "空节点"]
+  },
+  "101": {
+    "title": "对称二叉树",
+    "slug": "symmetric-tree",
+    "difficulty": "Easy",
+    "topics": ["二叉树"],
+    "skill": "成对比较镜像节点",
+    "template": "比较外侧与内侧节点并递归",
+    "key_points": ["镜像关系", "空节点组合", "递归返回值"]
+  }
+}

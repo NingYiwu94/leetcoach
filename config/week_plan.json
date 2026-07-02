@@ -1,0 +1,222 @@
+{
+  "week": 5,
+  "title": "哈希表与快速查找",
+  "start_date": "2026-06-24",
+  "days": {
+    "1": {
+      "date_note": "Day 1",
+      "problems": [
+        "202"
+      ],
+      "goal": "掌握用集合检测循环",
+      "reason": "从“用集合检测循环”的基础动作开始。为下一步“定长数组计数”建立基础。本题应沉淀为“不断生成下一状态，集合记录已出现状态”模板。",
+      "topic": "用集合检测循环",
+      "task_type": "review",
+      "mastery_requirement": "必须独立写出",
+      "execution_steps": [
+        "不看旧代码，先口述核心思路和关键指针含义。",
+        "独立重写并提交，失败后只定位错误类型。",
+        "通过后写下可复用模板和一个易错边界。"
+      ],
+      "summary_focus": "不断生成下一状态，集合记录已出现状态",
+      "relation_previous": "从“用集合检测循环”的基础动作开始。",
+      "relation_next": "为下一步“定长数组计数”建立基础。",
+      "review_problems": []
+    },
+    "2": {
+      "date_note": "Day 2",
+      "problems": [
+        "242"
+      ],
+      "goal": "掌握定长数组计数",
+      "reason": "承接前一天的“用集合检测循环”，继续增加指针操作复杂度。为下一步“补数映射”建立基础。本题应沉淀为“字符映射到计数数组并做增减抵消”模板。",
+      "topic": "定长数组计数",
+      "task_type": "new",
+      "mastery_requirement": "必须独立写出",
+      "execution_steps": [
+        "先独立思考 10 分钟，画出变量或指针变化。",
+        "完成第一版并提交，记录第一个真实卡点。",
+        "查看必要提示后关掉题解重写一次。",
+        "用 3 至 5 句话总结模板、边界和复杂度。"
+      ],
+      "summary_focus": "字符映射到计数数组并做增减抵消",
+      "relation_previous": "承接前一天的“用集合检测循环”，继续增加指针操作复杂度。",
+      "relation_next": "为下一步“补数映射”建立基础。",
+      "review_problems": []
+    },
+    "3": {
+      "date_note": "Day 3",
+      "problems": [
+        "1"
+      ],
+      "goal": "掌握补数映射",
+      "reason": "承接前一天的“定长数组计数”，继续增加指针操作复杂度。为下一步“分组统计降低枚举维度”建立基础。本题应沉淀为“查询 target - value，再记录当前位置”模板。",
+      "topic": "补数映射",
+      "task_type": "new",
+      "mastery_requirement": "必须独立写出",
+      "execution_steps": [
+        "先独立思考 10 分钟，画出变量或指针变化。",
+        "完成第一版并提交，记录第一个真实卡点。",
+        "查看必要提示后关掉题解重写一次。",
+        "用 3 至 5 句话总结模板、边界和复杂度。"
+      ],
+      "summary_focus": "查询 target - value，再记录当前位置",
+      "relation_previous": "承接前一天的“定长数组计数”，继续增加指针操作复杂度。",
+      "relation_next": "为下一步“分组统计降低枚举维度”建立基础。",
+      "review_problems": []
+    },
+    "4": {
+      "date_note": "Day 4",
+      "problems": [
+        "454"
+      ],
+      "goal": "掌握分组统计降低枚举维度",
+      "reason": "承接前一天的“补数映射”，继续增加指针操作复杂度。为下一步“字符资源消耗计数”建立基础。本题应沉淀为“统计前两数组和，再查询后两数组的相反数”模板。",
+      "topic": "分组统计降低枚举维度",
+      "task_type": "new",
+      "mastery_requirement": "看提示能写出",
+      "execution_steps": [
+        "先独立思考 10 分钟，画出变量或指针变化。",
+        "完成第一版并提交，记录第一个真实卡点。",
+        "查看必要提示后关掉题解重写一次。",
+        "用 3 至 5 句话总结模板、边界和复杂度。"
+      ],
+      "summary_focus": "统计前两数组和，再查询后两数组的相反数",
+      "relation_previous": "承接前一天的“补数映射”，继续增加指针操作复杂度。",
+      "relation_next": "为下一步“字符资源消耗计数”建立基础。",
+      "review_problems": []
+    },
+    "5": {
+      "date_note": "Day 5",
+      "problems": [
+        "383"
+      ],
+      "goal": "掌握字符资源消耗计数",
+      "reason": "承接前一天的“分组统计降低枚举维度”，继续增加指针操作复杂度。为后续“字符串基础”做准备。本题应沉淀为“先统计资源，再逐项扣减并检查负数”模板。",
+      "topic": "字符资源消耗计数",
+      "task_type": "new",
+      "mastery_requirement": "必须独立写出",
+      "execution_steps": [
+        "先独立思考 10 分钟，画出变量或指针变化。",
+        "完成第一版并提交，记录第一个真实卡点。",
+        "查看必要提示后关掉题解重写一次。",
+        "用 3 至 5 句话总结模板、边界和复杂度。"
+      ],
+      "summary_focus": "先统计资源，再逐项扣减并检查负数",
+      "relation_previous": "承接前一天的“分组统计降低枚举维度”，继续增加指针操作复杂度。",
+      "relation_next": "为后续“字符串基础”做准备。",
+      "review_problems": []
+    },
+    "6": {
+      "date_note": "Day 6",
+      "problems": [],
+      "goal": "不看题解重做本周最核心的三道题",
+      "reason": "检查是否从“看懂”转化为“能独立写出”。",
+      "topic": "本周核心题复习",
+      "task_type": "review_day",
+      "mastery_requirement": "核心题至少两道能独立写出",
+      "execution_steps": [
+        "不看旧代码，先口述核心思路和关键指针含义。",
+        "独立重写并提交，失败后只定位错误类型。",
+        "通过后写下可复用模板和一个易错边界。"
+      ],
+      "summary_focus": "比较三道题的指针角色、循环不变量和边界",
+      "relation_previous": "复用前五天形成的模板。",
+      "relation_next": "为周总结提供真实验收结果。",
+      "review_problems": [
+        "202",
+        "242",
+        "1"
+      ]
+    },
+    "7": {
+      "date_note": "Day 7",
+      "problems": [],
+      "goal": "形成“哈希表与快速查找”知识地图",
+      "reason": "把零散题目整理为可迁移的模板，再决定是否进入下一专题。",
+      "topic": "周总结",
+      "task_type": "summary",
+      "mastery_requirement": "完成模板、错因和掌握度记录",
+      "execution_steps": [
+        "整理本周题目的共同结构和差异。",
+        "把核心模板压缩成不超过 10 行的伪代码。",
+        "标记每题为独立写出、看提示写出或只能看懂。"
+      ],
+      "summary_focus": "题型识别、模板、易错点、复杂度和下周入口",
+      "relation_previous": "汇总本周所有练习结果。",
+      "relation_next": "达到验收标准后进入“字符串基础”。",
+      "review_problems": []
+    }
+  },
+  "generated_by": "curriculum_fallback",
+  "reason": "同步记录显示已完成本专题的 349、202；下一步按教学顺序学习 242、1、454、383。本周保持单一专题，避免在不同数据结构之间频繁切换。模型暂时不可用，已保留课程规则生成的可执行骨架。",
+  "recommended_focus": [
+    "哈希表与快速查找",
+    "掌握集合、映射、计数和空间换时间。"
+  ],
+  "weekly_theme": "哈希表与快速查找",
+  "weekly_goal": "掌握集合、映射、计数和空间换时间。",
+  "minimum_acceptance": "必须掌握题可以在 25 分钟内独立写出；本周至少 70% 核心题达到“独立写出”；能够口述本周模板、边界条件和时间复杂度。",
+  "transition_logic": "达到最低验收标准后进入“字符串基础”；否则下一周前两天继续复习本专题，再减少新题量。",
+  "must_master": [
+    "202",
+    "242",
+    "1",
+    "383"
+  ],
+  "guided_mastery": [
+    "454"
+  ],
+  "understand_only": [],
+  "mastery_review_ids": [],
+  "priority_review_ids": [
+    "202"
+  ],
+  "adaptive_reason": "当前没有新的复习掌握度阻塞信号。",
+  "prompt_version": "ai_plan_generator_v1",
+  "generated_at": "2026-06-24 20:18:01",
+  "learner_level_label": "新手",
+  "ai_generation_error": "模型请求超时，请稍后重试。",
+  "llm_schema_check": {
+    "valid": false,
+    "score": 0,
+    "issues": [
+      "尚未调用模型"
+    ]
+  },
+  "llm_fallback_used": true,
+  "quality_check": {
+    "passed": true,
+    "score": 100,
+    "issues": []
+  },
+  "learner_level_reason": "以 Easy 模板题为基础，可以加入经典 Medium，但 Medium 只要求看提示写出或第一遍理解；每天最多 1 道题，至少安排 1 天复习和 1 天总结，不安排 Hard。 最近复习较依赖提示，应优先练习独立重写。",
+  "generation_trigger": "manual_fix",
+  "curriculum_topic_id": "hash",
+  "llm_eval_result": {
+    "timestamp": "2026-06-24 20:18:01",
+    "task": "ai_plan_generator",
+    "score": 84,
+    "checks": {
+      "has_7_days": true,
+      "daily_limit_ok": true,
+      "has_review_day": true,
+      "uses_unfinished_problems": true,
+      "uses_failed_problems": true,
+      "uses_pending_reviews": true,
+      "uses_weakness": false,
+      "no_solution_content": false
+    },
+    "issues": [
+      "检查未通过：uses_weakness",
+      "检查未通过：no_solution_content"
+    ],
+    "plan_week": 5
+  },
+  "generated_for_week": 4,
+  "learner_level": "beginner",
+  "context_fingerprint": "",
+  "planned_start_date": "2026-06-25",
+  "activated_at": "2026-06-24 20:21:01",
+  "activation_mode": "immediate_on_confirmation"
+}

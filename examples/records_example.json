@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-06-01",
+    "problem_id": "704",
+    "status": "AC",
+    "difficulty_feeling": "一般",
+    "mistake_type": "边界条件",
+    "mistake_note": "示例：注意二分查找左右边界。",
+    "source": "example"
+  },
+  {
+    "date": "2026-06-02",
+    "problem_id": "977",
+    "status": "看提示后AC",
+    "difficulty_feeling": "困难",
+    "mistake_type": "指针移动逻辑",
+    "mistake_note": "示例：从结果数组末尾开始填充。",
+    "source": "example"
+  }
+]

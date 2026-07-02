@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "required": [
+    "week",
+    "title",
+    "start_date",
+    "days",
+    "generated_by",
+    "reason",
+    "recommended_focus"
+  ],
+  "properties": {
+    "week": "integer|string",
+    "title": "string",
+    "start_date": "YYYY-MM-DD",
+    "generated_by": "string",
+    "reason": "string",
+    "recommended_focus": "list[string]",
+    "days": {
+      "required_keys": ["1", "2", "3", "4", "5", "6", "7"],
+      "day_schema": {
+        "date_note": "string",
+        "problems": "list[string], max length 2",
+        "goal": "string",
+        "reason": "string"
+      }
+    }
+  },
+  "forbidden_fields": ["code", "solution", "answer", "python", "cpp", "java"]
+}

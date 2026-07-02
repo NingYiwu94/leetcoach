@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "required": [
+    "week",
+    "summary_title",
+    "overall_progress",
+    "main_weaknesses",
+    "representative_problems",
+    "learning_feedback",
+    "next_week_focus",
+    "recommended_actions"
+  ]
+}

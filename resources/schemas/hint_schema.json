@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "problem_id",
+    "hint_level",
+    "hint_title",
+    "hint_content",
+    "do_not_show_code",
+    "next_question"
+  ],
+  "constraints": {
+    "do_not_show_code": true,
+    "no_complete_code": true
+  }
+}

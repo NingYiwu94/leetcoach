@@ -1,0 +1,16 @@
+[
+  {
+    "problem_id": "704",
+    "next_review_date": "2026-06-04",
+    "reason": "示例：复习二分查找边界条件。",
+    "done": true,
+    "source": "example"
+  },
+  {
+    "problem_id": "977",
+    "next_review_date": "2026-06-05",
+    "reason": "示例：复习双指针移动逻辑。",
+    "done": false,
+    "source": "example"
+  }
+]

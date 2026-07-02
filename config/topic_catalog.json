@@ -1,0 +1,142 @@
+{
+  "数组": {
+    "total": 1900,
+    "order": 1,
+    "description": "数组基础、原地修改、前缀和、矩阵与区间处理等题型",
+    "difficulty_total": {
+      "Easy": 500,
+      "Medium": 1000,
+      "Hard": 400
+    }
+  },
+  "链表": {
+    "total": 260,
+    "order": 2,
+    "description": "链表增删改查、反转、环形链表、双指针等题型",
+    "difficulty_total": {
+      "Easy": 100,
+      "Medium": 120,
+      "Hard": 40
+    }
+  },
+  "双指针": {
+    "total": 300,
+    "order": 3,
+    "description": "左右指针、快慢指针、对撞指针等题型",
+    "difficulty_total": {
+      "Easy": 90,
+      "Medium": 160,
+      "Hard": 50
+    }
+  },
+  "滑动窗口": {
+    "total": 180,
+    "order": 4,
+    "description": "定长窗口、不定长窗口、窗口收缩等题型",
+    "difficulty_total": {
+      "Easy": 35,
+      "Medium": 110,
+      "Hard": 35
+    }
+  },
+  "模拟": {
+    "total": 300,
+    "order": 5,
+    "description": "矩阵模拟、流程模拟、边界控制等题型",
+    "difficulty_total": {
+      "Easy": 80,
+      "Medium": 170,
+      "Hard": 50
+    }
+  },
+  "二分查找": {
+    "total": 250,
+    "order": 6,
+    "description": "有序查找、答案二分、边界二分等题型",
+    "difficulty_total": {
+      "Easy": 70,
+      "Medium": 140,
+      "Hard": 40
+    }
+  },
+  "字符串": {
+    "total": 700,
+    "order": 7,
+    "description": "字符串处理、匹配、哈希、双指针等题型",
+    "difficulty_total": {
+      "Easy": 220,
+      "Medium": 360,
+      "Hard": 120
+    }
+  },
+  "哈希表": {
+    "total": 650,
+    "order": 8,
+    "description": "哈希映射、集合、频次统计等题型",
+    "difficulty_total": {
+      "Easy": 210,
+      "Medium": 340,
+      "Hard": 100
+    }
+  },
+  "二叉树": {
+    "total": 350,
+    "order": 9,
+    "description": "递归、遍历、路径、深度等题型",
+    "difficulty_total": {
+      "Easy": 100,
+      "Medium": 180,
+      "Hard": 70
+    }
+  },
+  "栈": {
+    "total": 250,
+    "order": 10,
+    "description": "单调栈、括号匹配、表达式处理等题型",
+    "difficulty_total": {
+      "Easy": 70,
+      "Medium": 130,
+      "Hard": 50
+    }
+  },
+  "队列": {
+    "total": 140,
+    "order": 11,
+    "description": "普通队列、双端队列、BFS 等题型",
+    "difficulty_total": {
+      "Easy": 35,
+      "Medium": 80,
+      "Hard": 25
+    }
+  },
+  "单调队列": {
+    "total": 60,
+    "order": 12,
+    "description": "滑动窗口最大值等单调队列题型",
+    "difficulty_total": {
+      "Easy": 10,
+      "Medium": 35,
+      "Hard": 15
+    }
+  },
+  "KMP": {
+    "total": 40,
+    "order": 13,
+    "description": "字符串模式匹配",
+    "difficulty_total": {
+      "Easy": 8,
+      "Medium": 24,
+      "Hard": 8
+    }
+  },
+  "动态规划": {
+    "total": 600,
+    "order": 14,
+    "description": "状态定义、状态转移、背包、区间 DP 等题型",
+    "difficulty_total": {
+      "Easy": 80,
+      "Medium": 360,
+      "Hard": 160
+    }
+  }
+}

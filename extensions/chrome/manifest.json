@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCoach Sync Bridge",
+  "version": "1.2.0",
+  "description": "缓存并同步当前 Chrome 登录会话中的力扣提交记录。",
+  "permissions": [
+    "alarms",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://leetcode.cn/*",
+    "http://127.0.0.1:18777/*",
+    "http://127.0.0.1:8765/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.cn/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
